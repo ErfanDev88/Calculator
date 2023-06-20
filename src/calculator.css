@@ -1,0 +1,56 @@
+.keypad {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 50px);
+  background-color: #333;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  font-size: 24px;
+  color: #fff;
+  background-color: #222;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+button:active {
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#clear, #backspace {
+  background-color: #dc3545;
+}
+
+#result {
+  background-color: #28a745;
+}
+input[type="text"] {
+  width: 100%;
+  font-size: 24px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #222;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.title{
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
